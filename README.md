@@ -3,6 +3,8 @@
 
 ---
 
+docker buildx build --platform linux/amd64,linux/arm64 -t hub.adure.io/serpbear --push .
+
 ![SerpBear](https://i.imgur.com/0S2zIH3.png)
 
 # SerpBear
